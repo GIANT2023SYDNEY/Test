@@ -1,0 +1,36 @@
+* {
+  font-family: Arial;
+}
+
+body {
+  background-image: url("Wall1.png");
+  background-repeat: repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.heading {
+  text-align: center;
+  color: white;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: rgba(255, 153, 0, 0.25);
+}
+
+.storyText {
+  color: white;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgba(255, 153, 0, 0.25);
+  font-size: 20px;
+}
+
+.hidden {
+  display: none;
+}
+
+.lose {
+  color: red;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgb(255, 153, 0);
+  font-size: 50px;
+}
